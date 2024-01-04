@@ -14,7 +14,7 @@
 <section class="page-section" id="services">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase"> Nos Services</h2>
+            <h2 class="section-heading text-uppercase"> Nos Activités</h2>
             <h3 class="section-subheading text-muted">Le numérique est notre avenir. Que ce soit dans le domaine de
                 l'économie,
                 de l'emploi ou de l'éducation, le numérique est un facteur indispensable à
@@ -26,9 +26,13 @@
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3">E-Commerce</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="my-3">FOIRES, SALONS, SEMINAIRES ET FORMATIONS</h4>
+                <p class="text-muted">OrganisationÊdeÊlaÊCameroonÊDigitalÊWeekÊàÊYaoundéÊduÊ1erÊauÊ;6ÊAoûtÊ2023;
+                    ¨ OrganisationÊ enÊ partenariatÊ avecÊ CAHUNETÊ leÊ FestivalÊ deÊ l’AéroportÊ àÊ laÊ
+                    BaseÊaérienneÊdeÊYaoundéÊduÊ…ÊauÊ…ÊDécembreÊ2023;
+                    ¨ OrganisationÊduÊcaféÊdeÊl’investisseurÊchaqueÊmois;Ê
+                    ¨ OrganisationÊ desÊ différentesÊ formationsÊ (tissageÊ desÊ pagnesÊ locaux,Ê agricul-
+                    tureÊ,ÊpetitesÊindustrie,ÊcyberÊsécurité…Ê).</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
