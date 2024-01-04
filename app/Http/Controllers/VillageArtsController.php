@@ -10,6 +10,6 @@ class VillageArtsController extends Controller
     // VillageArtsController.php
     public function index()
     {
-        return view('village_arts.index');
+        return view('pages.village_arts');
     }
 }

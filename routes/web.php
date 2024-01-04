@@ -15,15 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 
 // les routes
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/home', function () {
+    return view('homepage');
 })->name('welcome');
 
-Route::get('/village-arts', 'VillageArtsController@index')->name('village-arts');
-Route::get('/loisirs', 'LoisirsController@index')->name('loisirs');
-Route::get('/sport', 'SportController@index')->name('sport');
-Route::get('/technologie-numerique', 'TechnologieNumeriqueController@index')->name('technologie-numerique');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/village-arts', [App\Http\Controllers\VillageArtsController::class, 'index'] )->name('village-arts');
+Route::get('/loisirs', [App\Http\Controllers\LoisirsController::class, 'index']  )->name('loisirs');
+Route::get('/sport',[App\Http\Controllers\SportController::class, 'index'] )->name('sport');
+Route::get('/technologie-numerique', [App\Http\Controllers\TechnologieNumeriqueController::class, 'index'])->name('technologie-numerique');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 

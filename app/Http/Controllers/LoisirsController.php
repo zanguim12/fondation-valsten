@@ -10,6 +10,6 @@ class LoisirsController extends Controller
     // LoisirsController.php
     public function index()
     {
-        return view('loisirs.index');
+        return view('pages.loisir');
     }
 }

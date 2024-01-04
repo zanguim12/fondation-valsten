@@ -10,6 +10,6 @@ class TechnologieNumeriqueController extends Controller
     // TechnologieNumeriqueController.php
     public function index()
     {
-        return view('technologie_numerique.index');
+        return view('pages.technologie_numerique');
     }
 }

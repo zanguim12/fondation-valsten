@@ -10,6 +10,6 @@ class SportController extends Controller
     // SportController.php
     public function index()
     {
-        return view('sport.index');
+        return view('pages.sport');
     }
 }
