@@ -11,24 +11,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-5 py-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ url('/village-arts') }}">Village des Arts</a></li>
-                <li class="nav-item"><a class="nav-link"  href="{{ url('/loisirs') }}">Loisirs</a></li>
-                <li class="nav-item"><a class="nav-link"  href="{{ url('/sport') }}">Sports</a></li>
-                <li class="nav-item"><a class="nav-link"  href="{{ url('/technologie-numerique') }}">Technologiedu Numerique</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/loisirs') }}">Loisirs</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/sport') }}">Sports</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('/technologie-numerique') }}">Technologiedu
+                        Numerique</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#about">A Propos</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#team">Equipes</a></li>
                 <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     @auth
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}"
-                            >Home</a>
-</li>@else
-                        <li class="nav-item"><a href="{{ route('login') }}"
-                            class="nav-link">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">Acceuille</a>
+                        </li>
+                    @else
+                        <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Connexions</a></li>
 
                         @if (Route::has('register'))
-                        <li class="nav-item"><a href="{{ route('register') }}"
-                            class="nav-link">Register</a></li>
-
+                            <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">S'enregistrer</a></li>
                         @endif
                     @endauth
                 </div>

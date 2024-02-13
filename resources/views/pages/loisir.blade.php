@@ -2,12 +2,13 @@
 @extends('layouts.app')
 
 @section('content')
-     <!-- Portfolio Grid-->
-     <section class="page-section bg-light" id="portfolio">
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center p-5">
                 <h2 class="section-heading text-uppercase ">Loisirs</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Le loisir permet de se détendre, de se divertir, de se cultiver et
+                    de trouver un équilibre entre le travail et la vie personnelle.S</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
@@ -17,10 +18,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/ls01.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-heading">nature </div>
                             <div class="portfolio-caption-subheading text-muted">Illustration</div>
                         </div>
                     </div>
@@ -32,7 +33,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/ls02.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Explore</div>
@@ -47,7 +48,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/ls03.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Finish</div>
@@ -62,7 +63,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/ls04.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lines</div>
@@ -103,4 +104,4 @@
             </div>
         </div>
     </section>
-    @endsection
+@endsection

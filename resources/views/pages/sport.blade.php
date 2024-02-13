@@ -2,8 +2,8 @@
 @extends('layouts.app')
 
 @section('content')
-     <!-- Portfolio Grid-->
-     <section class="page-section bg-light" id="portfolio">
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center p-5">
                 <h2 class="section-heading text-uppercase ">Sports</h2>
@@ -17,7 +17,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sp02.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Threads</div>
@@ -32,7 +32,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sp03.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Explore</div>
@@ -47,7 +47,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sp04.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Finish</div>
@@ -62,7 +62,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sp05.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lines</div>
@@ -77,7 +77,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/c.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Southwest</div>
@@ -92,7 +92,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sp06.jpeg.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Window</div>
@@ -103,4 +103,4 @@
             </div>
         </div>
     </section>
-    @endsection
+@endsection
