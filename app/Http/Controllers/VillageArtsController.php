@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\VillageArtsActivity;
 use Illuminate\Http\Request;
 
 class VillageArtsController extends Controller
@@ -10,6 +11,8 @@ class VillageArtsController extends Controller
     // VillageArtsController.php
     public function index()
     {
-        return view('pages.village_arts');
+        $events = VillageArtsActivity::paginate(6);
+        return view('pages.village_arts', compact('events'));
+        
     }
 }

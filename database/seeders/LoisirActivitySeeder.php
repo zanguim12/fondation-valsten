@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\EventsActivities;
+use App\Models\LoisirActivity;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class EventsActivitiesSeeder extends Seeder
+class LoisirActivitySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,7 @@ class EventsActivitiesSeeder extends Seeder
     public function run(): void
     {
         //
-        EventsActivities::factory()->count(12)->create();
+        LoisirActivity::factory()->count(12)->create();
+        
     }
 }

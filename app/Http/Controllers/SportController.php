@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\SportActivity;
 use Illuminate\Http\Request;
 
 class SportController extends Controller
@@ -10,6 +11,8 @@ class SportController extends Controller
     // SportController.php
     public function index()
     {
-        return view('pages.sport');
+        $events = SportActivity::paginate(6);
+        return view('pages.sport', compact('events'));
+        
     }
 }
