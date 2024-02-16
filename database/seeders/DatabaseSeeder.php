@@ -22,10 +22,18 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        LoisirActivity::factory()->count(12)->create();
-        SportActivity::factory()->count(5)->create();
-        TechnologyNumericActivity::factory()->count(7)->create();
-        VillageArtsActivity::factory()->count(8)->create();
+        
+        //LoisirActivity::factory()->count(12)->create();
+        $this->call(TechnologyNumericActivitySeeder::class);
+       $this->call(VillageArtsActivitySeeder::class);
+        
+
+        $this->call(LoisirActivitySeeder::class);
+        $this->call(SportActivitySeeder::class);
+
+        
+
+        
         
     }
 }

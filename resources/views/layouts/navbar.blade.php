@@ -9,7 +9,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ms-auto py-5 py-lg-0">
+            <ul class="navbar-nav text-uppercase ms-auto py-5 py-lg-0 small-text">
                 <li class="nav-item"><a class="nav-link" href="{{ url('/village-arts') }}">Village des Arts</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/loisirs') }}">Loisirs</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/sport') }}">Sports</a></li>
